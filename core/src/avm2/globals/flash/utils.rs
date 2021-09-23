@@ -8,6 +8,7 @@ use crate::string::AvmString;
 pub mod bytearray;
 pub mod compression_algorithm;
 pub mod endian;
+pub mod proxy;
 
 /// Implements `flash.utils.getTimer`
 pub fn get_timer<'gc>(
